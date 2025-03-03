@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicología y Terapia Ocupacional Patricia Miguel - Terapia Integral</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --degrade: linear-gradient(45deg, #FF6B6B, #FF9F43, #FECA57, #2ECC71, #54A0FF, #5F27CD, #A55EEA);
+        }
+
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.8;
+            color: #2c3e50;
+            background: #f9f9f9;
+        }
+
+
+        h1, h2, h3 {
+            font-family: 'Dancing Script', cursive;
+            font-weight: 500;
+        }
+
+
+        header {
+            background: var(--degrade);
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+
+
+        .titulo-principal {
+            font-size: 3.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+
+
+        nav {
+            background: rgba(255,255,255,0.95);
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+
+        nav a {
+            color: #5F27CD;
+            margin: 0 25px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+
+        nav a:hover {
+            color: #FF6B6B;
+            transform: translateY(-2px);
+        }
+
+
+        .seccion {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 40px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+
+        .perfil {
+            text-align: center;
+            margin: 60px 0;
+        }
+
+
+        .perfil img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            border: 6px solid;
+            border-image: var(--degrade) 1;
+            margin-bottom: 30px;
+        }
+
+
+        .tarjeta {
+            padding: 30px;
+            margin: 30px 0;
+            border-left: 5px solid;
+            border-image: var(--degrade) 1;
+            background: rgba(255,255,255,0.95);
+            transition: transform 0.3s;
+        }
+
+
+        .tarjeta:hover {
+            transform: translateY(-10px);
+        }
+
+
+        .btn-magico {
+            background: var(--degrade);
+            color: white!important;
+            padding: 15px 45px;
+            border-radius: 30px;
+            display: inline-block;
+            margin: 20px 0;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+
+        .btn-magico:hover {
+            transform: scale(1.05);
+        }
+
+
+        footer {
+            background: var(--degrade);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo-principal">Psicología y Terapia Ocupacional Patricia Miguel</h1>
+        <p class="subtitulo">Colegiada COPC 32268</p>
+    </header>
+
+
+    <nav>
+        <a href="#sobre-mi">Mi Historia</a>
+        <a href="#terapias">Terapias</a>
+        <a href="#especialidades">Especialidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+
+    <section class="seccion" id="sobre-mi">
+        <div class="perfil">
+            <img src="tu-foto.jpg" alt="Patricia Miguel">
+            <h2>"Cada persona es un universo único por descubrir"</h2>
+            <p>Como psicóloga clínica y Terapeuta Ocupacional con más de una década de experiencia, he acompañado a cientos de personas en su viaje hacia el bienestar. Formada en la Universidad Europea de Madrid y especializada en terapias de tercera generación, combino rigor científico con un enfoque humano y cercano.</p>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>Mi Compromiso</h3>
+            <p>• Atención personalizada desde la primera sesión<br>
+               • Terapias basadas en evidencia científica<br>
+               • Confidencialidad absoluta garantizada<br>
+               • Enfoque integral mente-cuerpo</p>
+        </div>
+    </section>
+
+
+    <div class="tarjeta">
+        <h3>Formación Académica y Especializaciones</h3>
+        <p>🧠 <strong>Especialista en:</strong><br>
+           - Trastornos conductuales<br>
+           - Trastorno del Espectro Autista (TEA)<br>
+           - Trauma psicológico</p>
+        
+        <p>📜 <strong>Colegiada COPC:</strong> 32268</p>
+        <p>🎓 <strong>Máster Universitario:</strong><br>
+           Psicología General Sanitaria<br>
+           Universidad Europea de Madrid</p>
+        
+        <h4>🛠️ Herramientas Clínicas Certificadas:</h4>
+        <ul>
+            <li>🌈 EMDR Integrativo (Instituto Español de Psicoterapia Integradora)</li>
+            <li>🌀 Brainspotting Fase I</li>
+            <li>🧩 Intervención en TEA (Acreditada por ADANA)</li>
+            <li>💡 Terapia Snoezelen (Certificación ISNA)</li>
+        </ul>
+    </div>
+
+
+    <section class="seccion" id="terapias">
+        <h2>Nuestros Servicios</h2>
+        
+        <div class="tarjeta">
+            <h3>🌸 Terapia Individual</h3>
+            <p>Para niños, adolescentes y adultos:<br>
+               - Sesiones de 45 minutos<br>
+               - Online o presencial<br>
+               - Gestión de ansiedad y estrés</p>
+            <button class="btn-magico">36€ - Reservar ahora</button>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>💞 Terapia de Pareja</h3>
+            <p>Sesiones de 1 hora:<br>
+               - Comunicación asertiva<br>
+               - Resolución de conflictos<br>
+               - Presencial</p>
+            <button class="btn-magico">45€ - Reservar ahora</button>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>🧠 Sesión EMDR Online</h3>
+            <p>Procesamiento del trauma desde casa:<br>
+               - 1 hora de sesión<br>
+               - Protocolos personalizados<br>
+               - Plataforma segura</p>
+            <button class="btn-magico">50€ - Reservar ahora</button>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>🏡 Terapia Ocupacional</h3>
+            <p>Intervención personalizada:<br>
+               - Sesiones de 1 hora<br>
+               - En tu hogar<br>
+               - Materiales incluidos</p>
+            <button class="btn-magico">50€ - Reservar ahora</button>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>🚗 Psicoterapia a Domicilio</h3>
+            <p>Acompañamiento terapéutico:<br>
+               - Sesiones de 1 hora<br>
+               - Zona Cerdanyola<br>
+               - Horarios flexibles</p>
+            <button class="btn-magico">55€ - Reservar ahora</button>
+        </div>
+    </section>
+
+
+    <section class="seccion" id="especialidades">
+        <h2>Herramientas Transformadoras</h2>
+        
+        <div class="tarjeta">
+            <h3>🌈 EMDR Integrativo</h3>
+            <p>Técnica revolucionaria para procesar traumas:<br>
+               - Certificación internacional<br>
+               - Combinación con mindfulness<br>
+               - Protocolos personalizados</p>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>🌀 Brainspotting</h3>
+            <p>Acceso directo al sistema nervioso para:<br>
+               - Liberación emocional profunda<br>
+               - Integración de experiencias<br>
+               - Activación de recursos internos</p>
+        </div>
+    </section>
+
+
+    <section class="seccion" id="contacto">
+        <h2>Comienza Tu Transformación</h2>
+        <div class="tarjeta">
+            <p>📌 Consulta en Cerdanyola del Vallès<br>
+               🕒 Lunes a Viernes: 9:00 - 20:00<br>
+               📞 <a href="tel:+34621081042" style="color: #5F27CD;">621081042</a><br>
+               ✉️ <a href="mailto:psicologa.patriciamr@gmail.com" style="color: #5F27CD;">psicologa.patriciamr@gmail.com</a></p>
+            <button class="btn-magico">Reserva tu primera sesión</button>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2024 Patricia Miguel Rubia · Psicóloga Colegiada COPC 32268</p>
+        <p style="margin-top: 20px;">
+            <a href="#legal" style="color: white; margin: 0 15px;">Aviso Legal</a>
+            <a href="#privacidad" style="color: white; margin: 0 15px;">Privacidad</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- ... (mantener todo el head original sin cambios) ... -->
+</head>
+<body>
+    <!-- ... (mantener todo el body original hasta el footer) ... -->
+
+
+    <section class="seccion" id="legal">
+        <h2>Aviso Legal y Protección de Datos</h2>
+        
+        <div class="tarjeta">
+            <h3>Condiciones Generales de Uso</h3>
+            <p>El acceso a este sitio web implica la aceptación expresa de las siguientes condiciones:</p>
+            <ul>
+                <li>Uso responsable de los contenidos y servicios</li>
+                <li>Prohibición de extracción de datos mediante robots</li>
+                <li>Responsabilidad sobre contenidos compartidos</li>
+                <li>Reserva de derecho de admisión y permanencia</li>
+            </ul>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>Política de Privacidad</h3>
+            <p>Compromisos fundamentales en el tratamiento de datos:</p>
+            <ul>
+                <li>Confidencialidad absoluta de las sesiones</li>
+                <li>Recogida mínima de datos necesarios</li>
+                <li>Edad mínima de acceso: 14 años</li>
+                <li>Derechos ARSOL (Acceso, Rectificación, Supresión, Oposición y Limitación)</li>
+            </ul>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>Protección de Datos</h3>
+            <p>Medidas técnicas y organizativas implementadas:</p>
+            <ul>
+                <li>Cifrado de comunicaciones SSL</li>
+                <li>Almacenamiento en sistemas certificados</li>
+                <li>Actualizaciones periódicas de seguridad</li>
+                <li>Protocolos de acceso restringido</li>
+            </ul>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>Derechos del Usuario</h3>
+            <p>Podrás ejercer tus derechos mediante:</p>
+            <ul>
+                <li>Solicitud escrita a psicologa.patriciamr@gmail.com</li>
+                <li>Comunicación expresa indicando "Protección de Datos"</li>
+                <li>Plazo máximo de respuesta: 30 días naturales</li>
+                <li>Posibilidad de reclamación ante la AEPD</li>
+            </ul>
+        </div>
+
+
+        <div class="tarjeta">
+            <h3>Actualizaciones Normativas</h3>
+            <p>Última modificación: 19/10/2024</p>
+            <ul>
+                <li>Adaptación LOPDGDD 3/2018</li>
+                <li>Cumplimiento RGUE 2016/679</li>
+                <li>Protocolos actualizados de seguridad</li>
+                <li>Canales de comunicación preferentes</li>
+            </ul>
+            <p>Consultas legales: <a href="mailto:info@lant-abogados.com">info@lant-abogados.com</a></p>
+        </div>
+    </section>
+
+
+    <footer>
+        <!-- ... (mantener footer original) ... -->
+    </footer>
+</body>
+</html>
